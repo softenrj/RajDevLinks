@@ -56,7 +56,7 @@ export default function Heading() {
         transition={{ delay: 0.8, duration: 1 }}
         className="flex flex-col md:flex-row gap-6 w-full max-w-2xl justify-center items-center"
       >
-        <a href="https:https://github.com/softenrj" className="w-full" target="_blank">
+        <a href="https://github.com/softenrj" className="w-full" target="_blank">
           <VintageButton text="GitHub" />
         </a>
         <VintageButton text="Portfolio" primary onClick={() => setOpenBanner(true)} />
